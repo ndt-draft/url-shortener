@@ -1,4 +1,4 @@
-<div class="page-header">
+<div class="page-header clearfix">
 	<h1><?php echo $this->lang->line('system_system_name'); ?></h1>
 </div>
 

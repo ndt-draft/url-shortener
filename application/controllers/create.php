@@ -32,7 +32,7 @@ class Create extends MY_Controller {
 				$page_data['success_fail'] = 'success';
 				$page_data['encoded_url'] = $res;
 			} else {
-				$page_data['success_data'] = 'fail';
+				$page_data['success_fail'] = 'fail';
 			}
 
 			$page_data['encoded_url'] = base_url($res);
