@@ -43,6 +43,8 @@ $route['404_override'] = '';
 
 $route['create'] = 'create/index';
 $route['(:any)'] = 'go/index';
+$route['migrate'] = 'migrate';
+$route['migrate/rollback'] = 'migrate/rollback';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
